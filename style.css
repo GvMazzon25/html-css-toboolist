@@ -16,6 +16,10 @@ body{
     
 }
 
+.back-white{
+    background-color: #fff;
+}
+
 /*Header Section*/
 
 #logo{
@@ -23,8 +27,7 @@ body{
 }
 
 header{
-    background-color: #fff;
-    height: 70px;
+    height: 60px;
     margin-bottom: 20px;
     padding-top: 15px;
 }
@@ -36,5 +39,24 @@ header{
 /*Main Section*/
 
 main{
-   
+   width: 70%;
+   margin: auto;
+}
+
+.add{
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+
+.button{
+    display: inline;
+    margin: 0 5px 0 10px;
+    padding: 3px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(54, 141, 255);
+    vertical-align: -20px;
 }
