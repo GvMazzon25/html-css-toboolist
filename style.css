@@ -71,8 +71,9 @@ main{
 }
 
 #special-button{
+    color: gray;
     background-color: transparent;
-    border:rgb(54, 141, 255) ;
+    border: 2px solid gray ;
 }
 
 .heading{
