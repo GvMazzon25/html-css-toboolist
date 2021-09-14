@@ -50,6 +50,7 @@ main{
 
 .align-add{
     vertical-align: -16px;
+    border-radius: 10px;
 }
 
 .section{
@@ -70,7 +71,12 @@ main{
     background-color: rgb(54, 141, 255);
 }
 
+#button2{
+    border-radius: 5px;
+}
+
 #special-button{
+    border-radius: 5px;
     color: gray;
     background-color: transparent;
     border: 2px solid gray ;
