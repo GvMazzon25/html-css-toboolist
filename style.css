@@ -28,7 +28,7 @@ body{
 
 header{
     height: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-top: 15px;
 }
 
@@ -48,15 +48,79 @@ main{
     height: 50px;
 }
 
+.align-add{
+    vertical-align: -16px;
+}
+
+.section{
+    margin-bottom: 20px; 
+    padding: 20px 0 0 5px;
+}
+
+/*Bottoni*/
 
 .button{
     display: inline;
     margin: 0 5px 0 10px;
-    padding: 3px;
+    padding: 6px;
     border: 2px solid transparent;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgb(54, 141, 255);
-    vertical-align: -20px;
+}
+
+#special-button{
+    background-color: transparent;
+    border:rgb(54, 141, 255) ;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/*Color*/
+
+#mobile{
+    background-color: orange;
+}
+
+#website{
+    background-color: rgb(255, 0, 234);
+}
+
+#q{
+    background-color: rgb(76, 0, 255);
+}
+
+#recruiting{
+    background-color: rgb(21, 56, 0);
+}
+
+#sales{
+    background-color: rgb(84, 246, 9);
+}
+
+.special{
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+#thrue{
+    color: green;
+    border: 1px solid green;
+   
+}
+
+#false{
+    color: red;
+    border: 1px solid red;
 }
